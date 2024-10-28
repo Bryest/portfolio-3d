@@ -33,34 +33,22 @@ export const navLinks = [
   {
     id: "about",
     title: "About",
-  },
-  {
-    id: "projects",
-    title: "Projects",
-  },
-  {
-    id: "contact",
-    title: "Contact Me",
-  },
+  }
 ];
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web Developer (React)",
     icon: web,
   },
   {
-    title: "Frontend Developer",
+    title: "Mobile Developer (Flutter)",
     icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  }
 ];
 
 const technologies = [
@@ -120,71 +108,47 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Frontend Developer",
-    company_name: "Omnifood",
-    icon: omnifoodLogo,
-    iconBg: "#FDF2EA",
-    date: "Feb 2023 - March 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Developer",
-    company_name: "Codex ChatGPI Clone",
-    icon: openai,
+    title: "Front-end Developer React.js",
+    company_name: "Stefanini LATAM",
+    icon: threejs,
     iconBg: "#fff",
-    date: "Jan 2023 - Feb 2023",
+    date: "Jul 2024 - Present",
+    location: "Jaguariúna, San Pablo, Brasil · Remote",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a process automation platform for robots, enabling data monitoring and visualization.",
+      "Enhanced platform performance and user experience.",
+      "",
+      "Highlights:",
+      "- Built pages using React and TypeScript.",
+      "- Implemented unit tests with Jest.",
+      "- Created reusable components.",
+      "- Managed tasks in Jira.",
+      "",
+      "Design Stack:",
+      "- Designed prototypes in Figma.",
+      "- Applied UX/UI best practices."
     ],
-  },
+  }
+,  
   {
-    title: "Web Developer Portfolio",
-    company_name: "3D React Charts",
+    title: "Huawei Cloud Solution Architect",
+    company_name: "Huawei",
     icon: threejs,
     iconBg: "#fff",
     date: "Jan 2023 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Highlights:",
+      "- Conducted training on Microservices and Kubernetes management.",
+      "- Deployed .NET and Java web applications across Windows & Linux.",
+      "- Established secure connections via virtual private clouds.",
+      "- Generated cost reports using cloud calculators.",
+      "- Managed user permissions with IAM.",
+      "",
+      "Tech Stack: .NET, Java, Kubernetes, Huawei Cloud, VPC, IAM"
     ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "KJ proved me wrong by creating a website that was as beautiful as our product.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Starbucks",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients like KJ does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "Omnifood",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After KJ optimized our website, our traffic increased by 50%. We can't be more grateful!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "Real Estates",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  }
+  
+  
 ];
 
 const projects = [
@@ -207,7 +171,7 @@ const projects = [
       },
     ],
     image: refine,
-    source_code_link: "https://github.com/JagadeeshKJ/refine_mern_dashboard",
+    source_code_link: "https://github.com/RenatoKJ/refine_mern_dashboard",
     live_link: "https://real-estate-kj.netlify.app/",
     youtube_link: "https://youtu.be/VjmmgBQXTbw",
   },
@@ -230,7 +194,7 @@ const projects = [
       },
     ],
     image: dalle,
-    source_code_link: "https://github.com/JagadeeshKJ/dall-e-ai-img-gen",
+    source_code_link: "https://github.com/RenatoKJ/dall-e-ai-img-gen",
     live_link: "https://dall-e-ai-img-gen.vercel.app/",
     youtube_link: "https://youtu.be/-dip4Nep9vk",
   },
@@ -254,9 +218,9 @@ const projects = [
     ],
     image: omnifood,
     source_code_link:
-      "https://github.com/JagadeeshKJ/css-for-beginners/tree/main/Omnifood%20Final%20Project",
+      "https://github.com/RenatoKJ/css-for-beginners/tree/main/Omnifood%20Final%20Project",
     live_link: "https://omnifood-kj1.netlify.app/",
-    youtube_link: "https://www.youtube.com/@jagadeeshkoyya",
+    youtube_link: "https://www.youtube.com/@Renatokoyya",
   },
   // {
   //   name: "Starbucks Clone",
@@ -276,10 +240,10 @@ const projects = [
   //     },
   //   ],
   //   image: clone,
-  //   source_code_link: "https://github.com/JagadeeshKJ/Starbucks-Clone",
+  //   source_code_link: "https://github.com/RenatoKJ/Starbucks-Clone",
   //   live_link: "https://starbucks-clone-ashy.vercel.app/",
-  //   youtube_link: "https://www.youtube.com/@jagadeeshkoyya",
+  //   youtube_link: "https://www.youtube.com/@Renatokoyya",
   // },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

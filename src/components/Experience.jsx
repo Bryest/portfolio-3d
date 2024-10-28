@@ -11,7 +11,6 @@ import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
-
 const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
@@ -42,16 +41,16 @@ const ExperienceCard = ({ experience }) => {
         </p>
       </div>
 
-      <ul className="mt-5 list-disc ml-5 space-y-2">
+      <div className="mt-5 space-y-2">
         {experience.points.map((point, index) => (
-          <li
+          <p
             key={`experience-point-${index}`}
             className="text-white-100 text-[14px] pl-1 tracking-wider"
           >
             {point}
-          </li>
+          </p>
         ))}
-      </ul>
+      </div>
     </VerticalTimelineElement>
   );
 };

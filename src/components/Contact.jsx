@@ -41,9 +41,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Jagadeesh Koyya",
+          to_name: "Renato",
           from_email: form.email,
-          to_email: "jagadeesh10th@gmail.com",
+          to_email: "Renato10th@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -72,7 +72,7 @@ const Contact = () => {
 
   return (
     <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
+      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden justify-center`}
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
@@ -129,12 +129,14 @@ const Contact = () => {
         </form>
       </motion.div>
 
+      {/*
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
         className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
       >
         <EarthCanvas />
       </motion.div>
+      */}
     </div>
   );
 };
