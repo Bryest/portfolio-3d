@@ -80,10 +80,10 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
+  //  {
+  //  name: "Node JS",
+  //icon: nodejs,
+  //},
   {
     name: "MongoDB",
     icon: mongodb,
@@ -92,10 +92,10 @@ const technologies = [
     name: "Three JS",
     icon: threejs,
   },
-  {
-    name: "git",
-    icon: git,
-  },
+  // {
+  //  name: "git",
+  // icon: git,
+  // },
   {
     name: "figma",
     icon: figma,
@@ -129,7 +129,7 @@ const experiences = [
       "- Applied UX/UI best practices."
     ],
   }
-,  
+  ,
   {
     title: "Huawei Cloud Solution Architect",
     company_name: "Huawei",
@@ -147,8 +147,8 @@ const experiences = [
       "Tech Stack: .NET, Java, Kubernetes, Huawei Cloud, VPC, IAM"
     ],
   }
-  
-  
+
+
 ];
 
 const projects = [
